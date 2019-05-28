@@ -8,17 +8,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ObjCPhoenixClient'
-  s.version          = '0.1.4'
+  s.version          = '0.2.0'
   s.summary          = 'Phoenix Framework Channel Client'
 
   s.description      = <<-DESC
                         Phoenix Client allows ObjC based application to connect to Phoenix Framework channels over websocket.
                         DESC
 
-  s.homepage         = 'http://192.168.1.85/iOS/ObjCPhoenixClient'
+  s.homepage         = 'https://github.com/exorxw/ObjCPhoenixClient'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '362922604@qq.com' => '362922604@qq.com' }
-  s.source           = { :git => 'http://192.168.1.85/iOS/ObjCPhoenixClient.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/exorxw/ObjCPhoenixClient.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
