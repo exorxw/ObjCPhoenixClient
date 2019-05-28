@@ -1,0 +1,6 @@
+framework module ObjCPhoenixClient {
+  umbrella header "ObjCPhoenixClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

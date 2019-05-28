@@ -1,0 +1,27 @@
+{
+  "name": "ObjCPhoenixClient",
+  "version": "0.1.0",
+  "summary": "Phoenix Framework Channel Client",
+  "description": "Phoenix Client allows ObjC based application to connect to Phoenix Framework channels over websocket.",
+  "homepage": "http://192.168.1.85/renxinwei/ObjCPhoenixClient",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "362922604@qq.com": "362922604@qq.com"
+  },
+  "source": {
+    "git": "http://192.168.1.85/renxinwei/ObjCPhoenixClient.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ObjCPhoenixClient/Classes/**/*",
+  "dependencies": {
+    "SocketRocket": [
+      "0.5.1"
+    ]
+  }
+}
